@@ -1,4 +1,7 @@
 class FelineTerror(object):
+    # See that this `inherits` from the base `object` class python provides
+    # Technically it isn't necessary to specify.
+
     # All FelineTerrors and descendents have 4 legs ...
     legs = 4
     # ... and have some kind of fur
@@ -6,6 +9,7 @@ class FelineTerror(object):
 
 
 class HouseCat(FelineTerror):
+    # See that this `inherits` all the properties and methods of the FelineTerror
 
     # __init__ is magical, called by python when we make a new instance of this class
     # note the use if `self` - python expects objects to reference themselves in method definitions.
