@@ -1,26 +1,29 @@
 class FelineTerror(object):
-  legs = 4
-  fur = "short"
+    legs = 4
+    fur = "short"
+
 
 class HouseCat(FelineTerror):
-  def __init__(self, fur = "black"):
-    self.fur = fur
+    def __init__(self, fur="black"):
+        self.fur = fur
 
-  def anger(self):
-    print("Hiss!")
+    def anger(self):
+        print("Hiss!")
 
-  def startle(self):
-    print ("Meow!")
+    def startle(self):
+        print("Meow!")
+
 
 class Tiger(FelineTerror):
-  def __init__(self, fur = "orange"):
-    self.fur = fur
+    def __init__(self, fur="orange"):
+        self.fur = fur
 
-  def anger(self):
-    print("Roar!")
+    def anger(self):
+        print("Roar!")
 
-  def startle(self):
-    print ("Snarl!")
+    def startle(self):
+        print("Snarl!")
+
 
 tiger = Tiger()
 tiger.startle()
